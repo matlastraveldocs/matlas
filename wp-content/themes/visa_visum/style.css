@@ -1,0 +1,626 @@
+/*
+ Theme Name:   Visa Visum
+ Theme URI:    http://traveldocs.developstaging.com
+ Description:  Twenty Fifteen Child Theme
+ Author:       Atlas Softweb
+ Author URI:   https://www.atlassoftweb.com/
+ Template:     Total
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  visachild
+*/
+
+.need_a_visa {
+    background: rgba(0, 0, 0, .85);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.need_a_visa .inside {
+    margin: 0;
+    padding: 0;
+}
+
+.need_a_visa .inside h2 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.need_a_visa .inside .search-column {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.need_a_visa .inside .search-column label {
+    width: 40%;
+    color: #fff;
+}
+
+.need_a_visa .inside .search-column span {
+    width: 60%;
+}
+
+.need_a_visa .inside .search-column span select {
+    width: 100%;
+    height: 26px;
+}
+
+.need_a_visa .inside .search-column #search.theme-button {
+    width: 80%;
+    margin: 20px auto 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+body.has-sidebar .content-area {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.swal2-popup {
+    display: flex;
+    max-width: 100% !important;
+    width: auto !important;
+    border-radius: 15px !important;
+}
+
+.additional_info {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin-top: 15px;
+}
+
+.first_col,
+.second_col {
+    flex: 0 0 33%;
+    max-width: 33%;
+}
+
+.dest_value {
+    font-weight: bold;
+}
+
+.additional_info .dd_value,
+.additional_info .dest_value {
+    margin-top: 10px;
+}
+
+.dd_value select {
+    height: 26px;
+}
+
+.add_info_content p,
+.add_info_content label,
+.add_info_content select {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.swal2-actions .theme-button {
+    width: 30%;
+    margin: 20px auto 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px !important;
+    text-transform: uppercase;
+}
+
+label.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+.visa_form_submit {
+    float: left;
+    width: 100%;
+    /* box-shadow: 1px 3px 7px#ccc; */
+    padding: 26px;
+    margin-bottom: 50px;
+}
+
+.visa_form_submit>div {
+    float: left;
+    width: 100%;
+}
+
+.visa_form_submit .form-group.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.visa_form_submit .form-check.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.visa_form_submit>div label {
+    font-size: 16px;
+}
+
+.visa_form_submit p {
+    font-size: 16px;
+}
+
+.visa_form_submit h3 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.visa_form_submit h4 {
+    font-size: 16px;
+}
+
+.visa_form_submit>div input,
+.visa_form_submit>div select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.visa_form_submit_section button {
+    background-color: #f2403d !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.visa_form_submit_section button:hover {
+    background-color: #0774af !important;
+}
+
+.add_travelers-section .btn-full-width {
+    background-color: #f2403d !important;
+    color: #ffffff !important;
+    font-size: 13px !important;
+    padding: 10px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.add_travelers-section .btn-full-width:hover {
+    background-color: #0774af !important;
+}
+
+.urgent {
+    display: flex;
+    align-items: center;
+}
+
+.urgent input {
+    width: auto !important;
+    margin-bottom: 0 !important;
+}
+
+#addMoreTraveller,
+.visa_form_submit button[type="submit"] {
+    background-color: #f2403d !important;
+    color: #ffffff !important;
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+#addMoreTraveller:hover,
+.visa_form_submit button[type="submit"]:hover {
+    background-color: #0774af !important;
+}
+
+.form_seprationSection .house_section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .form_seprationSection .house_section #house_number {
+    flex: 0 0 68%;
+    max-width: 68%;
+    margin-right: 15px;
+} */
+
+.form_seprationSection .house_section #appart_number {
+    flex: 0 0 28%;
+    max-width: 28%;
+}
+
+.form_seprationSection .travel_details_container h4 span {
+    background-color: #f2403d;
+    font-size: 12px;
+    float: right;
+    color: #fff;
+    padding: 6px;
+    border-radius: 6px;
+    position: relative;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+.visa_form_submit .validate_error {
+    color: #f2403d;
+    position: absolute;
+    bottom: -12px;
+    left: 17px;
+    width: 100%;
+}
+
+
+/* -------------- 27/02/2020 ----------------- */
+
+.site-main.clr .visa_form_submit h3,
+.site-main.clr .visa_form_submit h2 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.site-main.clr .visa_form_submit input,
+.site-main.clr .visa_form_submit select {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 8px 14px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #ddd;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    border-radius: 0!important;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+
+.site-main.clr .visa_form_submit input:focus,
+.site-main.clr .visa_form_submit select:focus {
+    border-color: #999;
+    box-shadow: none;
+}
+
+.site-main.clr .visa_form_submit label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    /* font-family: 'Open Sans', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.site-main.clr .visa_form_submit p {
+    line-height: 1.8em;
+    margin-bottom: 30px;
+}
+
+.site-main.clr .col-md-8 {
+    padding-left: 0;
+    padding-right: 0;
+    /*z-index: 999;*/
+}
+
+.site-main.clr .col-md-8 .visa_form_submit {
+    padding: 40px 60px 60px 40px;
+}
+
+/* .site-main.clr .col-md-4{
+    height: 100% !important;
+}
+
+.site-main.clr .row{
+    display: flex;
+} */
+.backgrouddark{ background: #f3f3f3; }
+.site-main.clr .col-md-8{ background: #ffffff; }
+.site-main.clr .col-md-4 .wrapper{
+    background: #f3f3f3;
+    padding: 40px;
+    /*
+        border: 1px solid #bbb;
+        border-top: 1px solid #bbb;
+    */
+    border-left: 0;
+    /* height: 4442px; */
+    /* height: 100%; */
+}
+
+.site-main.clr .col-md-4 h3,
+.site-main.clr .col-md-4 h2 {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.site-main.clr .col-md-4 p {
+    line-height: 1.8em;
+    margin-bottom: 20px;
+}
+
+.site-main.clr .visa_form_submit #order_details .add_intended-section {
+    display: inline-block;
+}
+
+.site-main.clr .visa_form_submit #order_details .add_intended-section #add_intended_info_button {
+    padding: 12px;
+    text-align: center;
+    background: transparent;
+    /* border: 1px solid #adadad; */
+    border: 0;
+    margin-top: 15px;
+    color: #333;
+    border-radius: 0;
+}
+
+.site-main.clr .visa_form_submit #order_details .add_intended-section #add_intended_info_button:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.site-main.clr .visa_form_submit #visa_travel_details-information .travel_details_container h4 {
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.site-main.clr .visa_form_submit #visa_travel_details-information .travel_details_container ul li {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.site-main.clr .visa_form_submit h4 {
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.site-main.clr .visa_form_submit button[type="submit"] {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.site-main.clr .visa_form_submit button[type="submit"] i {
+    display: none;
+}
+
+.site-main.clr .visa_form_submit button[type="submit"]:hover {
+    background: #000000!important;
+    color: #ffffff!important;
+}
+
+.site-main.clr .add_travelers-section .btn-full-width {
+    border: 0;
+    border-radius: 4px;
+}
+
+.site-main.clr .add_travelers-section .btn-full-width:hover {
+    background: #000000!important;
+    color: #ffffff!important;
+}
+
+.site-main.clr .sticky {
+    width: 481px;
+    top: 80px;
+    position: fixed;
+}
+/* --- Matlas ---*/
+.process-steps {
+    list-style: none;
+}
+.process-steps li {
+    text-align: center;
+}
+.process-steps.process-2 li {
+    width: 50%;
+}
+.process-steps li {
+    float: left;
+    position: relative;
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+}
+.process-steps li::before, .process-steps li::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin-left: -26px;
+    width: 50%;
+    border-top: 1px dashed #ddd;
+}
+.process-steps li::after {
+    left: auto;
+    right: 0;
+    margin: 0 -26px 0 0;
+}
+.process-steps li:first-child::before, .process-steps li:last-child::after {
+    display: none;
+}
+.process-steps li.active a, .process-steps li.ui-tabs-active a {
+    background-color: #1059a7 !important;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    border-color: #1059a7 !important;
+}
+/* .process-steps li h5 {
+    margin: 15px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+} */
+.process-steps li.active h5, .process-steps li.ui-tabs-active h5 {
+    font-weight: 600;
+    color: #1059a7;
+}
+.process-steps li .i-bordered {
+    background-color: #fff;
+}
+.process-steps li .i-circled {
+    margin-bottom: 0 !important;
+    border-radius: 50%;
+}
+.i-circled {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.i-bordered {
+    border: 1px solid #555;
+        border-top-color: rgb(85, 85, 85);
+        border-right-color: rgb(85, 85, 85);
+        border-bottom-color: rgb(85, 85, 85);
+        border-left-color: rgb(85, 85, 85);
+    line-height: 50px !important;
+    background-color: transparent !important;
+    color: #444;
+    text-shadow: none;
+}
+.i-rounded, .i-circled, .i-bordered {
+    width: 52px !important;
+    height: 52px !important;
+    line-height: 52px !important;
+    background-color: #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.i-rounded, .i-plain, .i-circled, .i-bordered, .social-icon {
+    display: block;
+    float: left;
+    margin: 4px 11px 7px 0;
+        margin-right: 11px;
+        margin-bottom: 7px;
+        margin-left: 0px;
+    text-align: center !important;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    cursor: pointer;
+    font-style: normal;
+}
+.divcenter {
+    position: relative !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.i-bordered {
+    border: 1px solid
+#555;
+line-height: 50px !important;
+background-color:
+transparent !important;
+color:
+    #444;
+    text-shadow: none;
+}
+body.mremove #wpadminbar,
+body.mremove #site-header-sticky-wrapper,
+body.mremove #main header.page-header,
+body.mremove #top-bar-wrap,
+body.mremove #footer,
+body.mremove #footer-bottom,
+body.page-template-mlogin header.page-header
+{ display: none; }
+/* --- Matlas ---*/
+@media (max-width:991px) {
+    .visa_form_submit .form-group.row {
+        display: block;
+    }
+    .visa_form_submit>div label {
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+@media (max-width:575px) {
+    .form_seprationSection .house_section #house_number {
+        margin-right: 8px;
+    }
+}
+
+@media (max-width:420px) {
+    .form_seprationSection .house_section #appart_number {
+        flex: 0 0 46%;
+        max-width: 46%;
+    }
+    .form_seprationSection .house_section #house_number {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.dropdown-menu {
+    position: relative !important;
+    display: block !important;
+    float: left !important;
+    min-width: 160px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+::-webkit-search-cancel-button,
+::-webkit-clear-button {
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+  color: rgba(0, 0, 0, 0.54);
+  cursor: pointer;
+  height: 1.5rem;
+  margin-right: 0;
+  width: 1.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000" fill-opacity=".54" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3C/svg%3E');
+  width: 14px;
+  height: 18px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-left: .5rem;
+}
+::-webkit-calendar-picker-indicator:hover {
+  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.04);
+}

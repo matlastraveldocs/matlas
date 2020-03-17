@@ -1,0 +1,220 @@
+1581918791
+
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [PartnerID] => asasdsadsa
+            [Type] => TrackSearch
+        )
+
+    [TrackSearch] => SimpleXMLElement Object
+        (
+            [Title] => love
+            [Tags] => SimpleXMLElement Object
+                (
+                    [MainGenre] => Blues
+                )
+
+            [Page] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [Number] => 1
+                            [Size] => 20
+                        )
+
+                )
+
+        )
+
+)
+1581918826
+
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [PartnerID] => asasdsadsa
+            [Type] => TrackSearch
+        )
+
+    [TrackSearch] => SimpleXMLElement Object
+        (
+            [Title] => love
+            [Tags] => SimpleXMLElement Object
+                (
+                    [MainGenre] => Blues
+                )
+
+            [Page] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [Number] => 1
+                            [Size] => 20
+                        )
+
+                )
+
+        )
+
+)
+1581919151
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1581919272
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1582806210
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1582806474
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1582895767
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1582895889
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => id6601
+            [TrxStsCode] => GBT0006
+        )
+
+    [rcemsSgn] => H/18DgWEKQbq5A8CSjGJFOuKIYf6WGVFqydEvv4SGVow746yn+dJxNQPihhAv5BPjj3k6bgCiMfF/qfCt1zE09+v+7Z9sY2SXRPKjCGAdNR6iz+6T4l30D/jxdJLlMSLP4a2xK5dJCK+3SQOyprwZIThl3VpzysH9o95DCgZ9jA/snXQ3yvEOysuXfaptEVNls2dg3pPKY5PCsuscM+U483zcuwUWxe92soY9cQDxwc359h0WcJH47KDzszwd/Q71JDTZaqpCQRbnc11XOmg6sN1TYrCGKY38xUo6A6KunsnoYpMIV1578i2O22jRbMLx8V+HyVmg7XWH/ZREoXvPw==
+)
+1583152494
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => >1583152493
+            [TrxStsCode] => GBT0000
+        )
+
+    [rcemsSgn] => OV9uCNcrn8tbFjpiQOCWL9/Wppw/xniSasdld1/tPGJBAHC6C+fyjS3Q8hlLrk8JYlFcuu11GnKqyRBQ5cM22uhSsf1Pne1c2M0Ug97u4eDICAis5dkmZ+C4o/2NmXUhIP0rznEXUgvOBwpO57LtJ4JRnqwsXdOJv8PAa/65ILjp8W+mlXvDPEFFYkzYRUadmYVY3GsDDVFT6kx5tnGofwnRQcz5wUTgqRz1zviZGnlPFrLGZEMRqthlGjdT/Iliat5rNCdNpBYHBtKdpzZvCFuKbDwWwgFSl5r72xY9WkxaTJ7wdYUncNkwhGmV7uytz8rC5cfBDgkUIdjRwgAAtA==
+)
+1583152615
+
+SimpleXMLElement Object
+(
+    [rcemsTrxSubResp] => SimpleXMLElement Object
+        (
+            [OprtTrxId] => >1583152493
+            [TrxStsCode] => GBT0000
+        )
+
+    [rcemsSgn] => OV9uCNcrn8tbFjpiQOCWL9/Wppw/xniSasdld1/tPGJBAHC6C+fyjS3Q8hlLrk8JYlFcuu11GnKqyRBQ5cM22uhSsf1Pne1c2M0Ug97u4eDICAis5dkmZ+C4o/2NmXUhIP0rznEXUgvOBwpO57LtJ4JRnqwsXdOJv8PAa/65ILjp8W+mlXvDPEFFYkzYRUadmYVY3GsDDVFT6kx5tnGofwnRQcz5wUTgqRz1zviZGnlPFrLGZEMRqthlGjdT/Iliat5rNCdNpBYHBtKdpzZvCFuKbDwWwgFSl5r72xY9WkxaTJ7wdYUncNkwhGmV7uytz8rC5cfBDgkUIdjRwgAAtA==
+)
+1583221144
+
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [PartnerID] => asasdsadsa
+            [Type] => TrackSearch
+        )
+
+    [TrackSearch] => SimpleXMLElement Object
+        (
+            [Title] => love
+            [Tags] => SimpleXMLElement Object
+                (
+                    [MainGenre] => Blues
+                )
+
+            [Page] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [Number] => 1
+                            [Size] => 20
+                        )
+
+                )
+
+        )
+
+)
+1583221307
+
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [PartnerID] => asasdsadsa
+            [Type] => TrackSearch
+        )
+
+    [TrackSearch] => SimpleXMLElement Object
+        (
+            [Title] => love
+            [Tags] => SimpleXMLElement Object
+                (
+                    [MainGenre] => Blues
+                )
+
+            [Page] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [Number] => 1
+                            [Size] => 20
+                        )
+
+                )
+
+        )
+
+)
